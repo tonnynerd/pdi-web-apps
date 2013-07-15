@@ -108,6 +108,7 @@ function new_item (person_data, item_id, parent_id) {
   return main_div;
 }
 
+// Main bindings:
 $(document).ready(function (){
   // binding do botão de exibir busca avançada:
   $('#expand').click(function (event) {

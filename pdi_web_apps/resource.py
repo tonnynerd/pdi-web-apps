@@ -5,7 +5,7 @@ import requests
 
 
 class Resource:
-    """URL"""
+    """Represents a resource URL."""
     def __init__(self, name):
         self.name = name
 
